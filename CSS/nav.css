@@ -1,0 +1,89 @@
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #e2e2e2;
+  box-shadow: 0px 24px 51px -42px black;
+  border-radius: 10px;
+  z-index: 999999;
+  top: 0px;
+  position: relative;
+  position: sticky;
+  transition: all 0.5s 0s ease;
+}
+
+nav .home,
+nav .anime,
+nav .books {
+  position: absolute;
+  background-color: #424242;
+  width: calc(50% / 3);
+  color: white;
+  float: left;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.5s 0 ease;
+  scroll-behavior: smooth;
+  transition: all 0.14s 0s ease;
+  scroll-behavior: smooth;
+}
+
+nav:hover {
+  background-color: #585858;
+}
+
+nav:hover .home,
+nav:hover .anime,
+nav:hover .books {
+  outline: 2px solid white;
+}
+
+nav .home:hover,
+nav .anime:hover,
+nav .books:hover {
+  scale: 1.09;
+  background-color: rgb(161, 225, 218);
+  color: black;
+  box-shadow: 0px 5px 30px 0px rgba(169, 255, 247, 0.7);
+  outline: 0px;
+}
+
+nav .home {
+  margin-left: 41%;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+nav .anime {
+  margin-left: 15%;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+nav .books {
+  margin-left: 67%;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.top {
+  position: fixed;
+  background-color: #424242;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 5px;
+  bottom: 0px;
+  right: 0px;
+  width: 60px;
+  transition: all 0.2s 0s ease;
+  outline: 3px solid white;
+}
+
+.top:hover {
+  scale: 1.0999;
+  background-color: #626262;
+}

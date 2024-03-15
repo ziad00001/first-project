@@ -1,0 +1,100 @@
+.main .head p {
+  font-weight: bolder;
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.main .body {
+  padding: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 20px;
+}
+.main .skills li {
+  padding: 15px;
+  margin-left: 40%;
+  margin-right: 43%;
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+}
+.main .skills p {
+  padding: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.skills .lione,
+.litwo,
+.lithree,
+.lifour {
+  padding: 10px;
+  margin: 30px;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+}
+
+.main .fav-animes li {
+  padding: 15px;
+  margin-left: 40%;
+  margin-right: 43%;
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+}
+.main .fav-animes p {
+  padding: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.fav-animes .lione,
+.litwo,
+.lithree,
+.lifour {
+  padding: 10px;
+  margin: 30px;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+}
+
+.main .fav-books li {
+  padding: 15px;
+  margin-left: 40%;
+  margin-right: 43%;
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+}
+.main .fav-books p {
+  padding: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.fav-books .lione,
+.litwo,
+.lithree,
+.lifour {
+  padding: 10px;
+  margin: 30px;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+}

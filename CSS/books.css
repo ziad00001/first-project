@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.books {
+  width: 100% auto;
+  border-radius: 20px;
+  height: 1100px;
+  background-color: rgb(246, 246, 246);
+  position: relative;
+}
+
+.atomic,
+.rich,
+.the20 {
+  width: 24%;
+  height: 600px;
+  margin-left: 7%;
+  margin-top: 5%;
+  border-radius: 10px;
+  float: left;
+  filter: blur(8px) grayscale(30%);
+  transition: all 0.19s 0s ease;
+}
+
+.atomic:hover,
+.rich:hover,
+.the20:hover {
+  scale: 1.1;
+  box-shadow: 0 0 220px -130px black;
+  border-radius: 50px;
+  filter: blur(0px) grayscale(0%);
+}
+
+.books .clear {
+  clear: both;
+}
+
+.books .books-text p {
+  color: rgb(37, 37, 37);
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 150%;
+  text-align: center;
+  float: left;
+  width: 24%;
+  margin-left: 7%;
+  margin-top: 5% auto;
+}
+
+.books-text .clear {
+  clear: both;
+}
+
+.bo {
+  z-index: 44545;
+  position: absolute;
+  font-weight: bolder;
+  text-align: center;
+  top: -100px;
+  right: 70%;
+  font-size: 250%;
+}
